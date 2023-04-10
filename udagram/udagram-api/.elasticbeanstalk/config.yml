@@ -1,10 +1,10 @@
 branch-defaults:
   default:
-    environment: Final-try-env
+    environment: Udagramapiproject-env
 deploy:
   artifact: www/Archive.zip
 global:
-  application_name: Final-try
+  application_name: udagram_api_project
   branch: null
   default_ec2_keyname: null
   default_platform:  Node.js 16 running on 64bit Amazon Linux 2
